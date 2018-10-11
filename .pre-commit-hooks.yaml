@@ -14,10 +14,3 @@
   files: \.tf$
   exclude: \.terraform\/.*$
 
-- id: detect-aws-credentials
-  name: aws_credentials_detect
-  description: Detect AWS Credentials
-  entry: bin/aws_credentials.sh
-  language: script
-  files: \.tf$
-  exclude: \.terraform\/.*$
