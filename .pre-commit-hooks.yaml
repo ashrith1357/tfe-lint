@@ -14,3 +14,12 @@
   files: \.tf$
   exclude: \.terraform\/.*$
 
+
+
+- id: terraform_validate
+  name: terraform_validate
+  description: Validates terraform scripts syntax
+  entry: bin/aws_credentials.sh
+  language: script
+  files: *
+  
